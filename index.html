@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composants Électroniques</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <header>
+        <h1>Composants Électroniques de Base</h1>
+    </header>
+    <main>
+        <ul id="component-list"></ul>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-text">
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+                <h3>Circuit d'exemple :</h3>
+                <img id="modal-circuit-image" src="" alt="Circuit d'exemple">
+            </div>
+            <div id="model-container"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
